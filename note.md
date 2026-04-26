@@ -22,4 +22,9 @@ every commit have unique SHA-1 has for tracking
 this is used for staged to save into git repository
 
 cmd git log - for show history of commit
-cmd git log --online
+cmd git log --oneline
+
+cmd git diff , git diff commit1 commit2
+it is show the diffrence bw working directory to staging area.
+code review and debugging before commiting
+cmd- git clone "url or path"
