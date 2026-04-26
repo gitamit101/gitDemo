@@ -30,4 +30,9 @@ code review and debugging before commiting
 cmd- git clone "url or path"
 cmd- git fetch -> it is used to retrive the latest update from a remote repository without merging them into our local branch.
 what you modified just not merge
-cmd- git merge
+cmd- git merge headname it merege the code
+primarly it is used to merge branches in an online repository
+cmd- git push
+git branch -M main
+git remote add origin https://github.com/gitamit101/gitDemo.git
+git push -u origin main
