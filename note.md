@@ -28,3 +28,6 @@ cmd git diff , git diff commit1 commit2
 it is show the diffrence bw working directory to staging area.
 code review and debugging before commiting
 cmd- git clone "url or path"
+cmd- git fetch -> it is used to retrive the latest update from a remote repository without merging them into our local branch.
+what you modified just not merge
+cmd- git merge
