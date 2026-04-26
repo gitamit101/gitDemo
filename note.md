@@ -17,4 +17,9 @@ start just current untracked file put into staged area and git add . provide mor
 before commit alway code should be in staged area means git add .
 otherwise it wil not commit
 
-cmd- git commit Commiting chnages
+cmd- git commit -"Message" Commiting chnages
+every commit have unique SHA-1 has for tracking
+this is used for staged to save into git repository
+
+cmd git log - for show history of commit
+cmd git log --online
