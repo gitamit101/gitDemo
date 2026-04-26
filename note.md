@@ -13,3 +13,8 @@ there is any commit or not and untrack file
 cmd- git add <file> untracked file (working directory)convert into stageing area -> git repositroy.
 for all file git add \* or git add .
 start just current untracked file put into staged area and git add . provide more feature subdirectory file
+
+before commit alway code should be in staged area means git add .
+otherwise it wil not commit
+
+cmd- git commit Commiting chnages
